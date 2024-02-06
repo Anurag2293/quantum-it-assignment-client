@@ -1,0 +1,80 @@
+
+.container {
+    background-image: linear-gradient(#007582, #00C2BA);
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    background-color: #1E2C4F;
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 30%;
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    top: -4%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: 2px;
+
+    background-color: #00F4E2;
+    padding: 1rem 3rem;
+    
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.profileIcon {
+    width: 100%;
+    margin: 1rem auto;
+
+    stroke-width: 2px;
+}
+
+.descrip {
+    display: flex;
+    justify-content: space-between;
+    color: #1F7083;
+}
+
+.loginButton {
+    width: 100%;
+    height: 3rem;
+    margin: 0.75rem auto;
+    padding: 0.5rem 0;
+    
+    border-radius: 4px;
+    background-color: #00F4E2;
+    color: #1E2C4F;
+    border: none;   
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.inputField {
+    width: 100%;
+    height: 3rem;
+    margin: 0.75rem auto;
+    padding: 0.5rem 1rem;
+    
+    border-radius: 0.5rem;
+    background-color: #4D5874;
+    border: none;
+    color: white;
+}
+
+.loginButton a {
+    text-decoration: none;
+    color: #1E2C4F;
+    text-transform: uppercase;
+}

@@ -1,0 +1,18 @@
+
+.container {
+    padding: 5%;
+}
+
+.headContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tableSection {
+    width: 100%;
+}
+
+.heading {
+    font-weight: 500;
+}
